@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800;900&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+  background: url(../images/sunset.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 15px 8px 15px;
+    width: 100%;
+    position: sticky;
+    
+}
+
+header h1 {
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  }
+
+.countdown {
+  text-align: center;
+  margin: 10px auto;
+}
+
+
+.count {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 5px;
+  font-family: 'Orbitron', sans-serif;
+  color: whitesmoke;
+  font-size: 2.5rem;
+}
+
+
+.row-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.subcontainer {
+    margin: 10px auto;
+    padding: 2rem;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+
+  #map-img {
+    width: 280px;
+  }
+
+
+  #directions {
+      margin-bottom: 6rem;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .count {
+      font-size: 1.1rem;
+      padding: 2px;
+      margin: 5px 0px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    #map-img {
+      width: 250px;
+    }
+  }
